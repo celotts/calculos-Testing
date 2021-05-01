@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
   @ViewChild('result') result: any
 
   ngOnInit(){
-    this.title=  'Calculos';
+    this.title =  'Calculos';
   }
 
   public suma(num1:any, num2: any): number{
